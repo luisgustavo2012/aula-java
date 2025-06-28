@@ -5,6 +5,7 @@ function iniciarJogo(){
     let resultado = num1 + num2;
     alert("A Soma dos números é: " = resultado);
 }
+
 function numeroSecreto(){
 alert("Seja bem-vindo ao nosso jogo!");
 

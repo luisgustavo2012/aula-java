@@ -11,11 +11,30 @@ body {
   background-color: #4527f0;
 }
 
-button {
-  margin: 10px;
-  padding: 10px 20px;
-  font-size: 16px;
-}
+ .botoes {
+      display: flex;
+      gap: 20px; /* Espaço entre os botões */
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+      transform: scale(1.05);
+    }
+
+    button:active {
+      transform: scale(0.98);
+    }
 h1{
     text-align: center;
     display: flex;
